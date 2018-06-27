@@ -11,8 +11,8 @@
 #
 # By default this script does nothing.
 exec 2> /tmp/rc.local.log
-exec 1>&2
-set -x
+#exec 1>&2
+#set -x
 
 su - yunle -c "bash -i -c /home/yunle/.container/start_container.sh"
 
