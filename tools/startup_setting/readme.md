@@ -14,5 +14,5 @@
 检验
 ----
 >可通过运行 ~/.container下的start_container.sh来检验是否设置成功
->>	----`tail -f /tmp/container.log` 没有报错信息\<br>
+>>	----`tail -f /tmp/container.log` 没有报错信息 
 >>	----否则根据错误信息进行修复（通常为缺少alluxio等模块，pip一下即可）
